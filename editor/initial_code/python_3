@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def correcao_teclado(texto):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(correcao_teclado("isto_é_um_teste"))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert correcao_teclado("isto_é_um_teste") == "isto é um teste"
+assert correcao_teclado("texto_sem_espacos") == "texto sem espacos"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

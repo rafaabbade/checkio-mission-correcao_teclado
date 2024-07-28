@@ -1,22 +1,22 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Construção de Conhecimento:</strong> Explore novos conceitos e técnicas. Peça dicas e leia-as com atenção. Pesquise se necessário.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Vicente, um escritor entusiasmado, está enfrentando um problema curioso. Seu teclado está quebrado, e toda vez que ele tenta digitar um espaço, aparece um sublinhado ('_') em seu texto. Vicente precisa de uma ferramenta que corrija automaticamente seu texto substituindo todos os sublinhados por espaços adequados.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Uma string (texto) contendo palavras separadas por sublinhados.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> A string corrigida com espaços no lugar dos sublinhados.
 </p>
 
 
@@ -32,11 +32,13 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    correcao_teclado("isto_é_um_teste") >> "isto é um teste"
+correcao_teclado("texto_sem_espacos") >> "texto sem espacos"
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Manipulação de Strings</li>
+
 </ul>
